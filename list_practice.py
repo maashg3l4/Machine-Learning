@@ -19,3 +19,11 @@ print("Sorted cars:", cars)
 # Ulto bhabe sajano
 cars.reverse()
 print("Reversed list:", cars)
+
+colors = ["Red", "Green", "Blue", "Yellow"]
+# Shesh element bad deya
+colors.pop()
+print("After pop:", colors)
+# Specific element bad deya
+colors.remove("Green")
+print("After removing Green:", colors)
