@@ -9,3 +9,9 @@ It focuses on teaching computers to learn from data."""
 print(about_ml)
 print("Total characters:", len(about_ml))
 print("Is 'AI' present?", "AI" in about_ml)
+
+def welcome_user(user_name):
+    return f"Hello {user_name}, welcome to your ML journey!"
+
+message = welcome_user("Sohag")
+print(message)
