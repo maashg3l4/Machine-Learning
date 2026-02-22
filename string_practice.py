@@ -15,3 +15,10 @@ def welcome_user(user_name):
 
 message = welcome_user("Sohag")
 print(message)
+
+def calculate_area(length, width):
+    return length * width
+
+result = calculate_area(5, 10)
+print("Area of the rectangle:", result)
+
