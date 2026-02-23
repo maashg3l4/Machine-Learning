@@ -14,3 +14,7 @@ print("Shuffled data for training:", data)
 import math
 print("Value of PI:", math.pi)
 print("Square root of 64:", math.sqrt(64))
+
+import math
+print("2 to the power 5:", math.pow(2, 5))
+print("Floor value of 9.8:", math.floor(9.8))
