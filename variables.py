@@ -42,3 +42,17 @@ squares = [n**2 for n in numbers]
 print(squares) # Output: [1, 4, 9, 16, 25]
 
 
+
+
+student_data = {
+    "id": 101,
+    "name": "Sohag",
+    "skills": ["Python", "Git", "Django"],
+    "is_active": True
+}
+
+
+student_data["current_goal"] = "Machine Learning"
+
+print("Keys in dictionary:", student_data.keys())
+print("Student Skills:", student_data["skills"])
