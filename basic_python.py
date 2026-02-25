@@ -17,3 +17,8 @@ numbers = [5, 10, 15, 20]
 squared = [x**2 for x in numbers]
 print(f"Original: {numbers}")
 print(f"Squared: {squared}")
+
+# basic_python.py - Phase 3
+users = {"admin": "active", "sohag": "active", "guest": "inactive"}
+active_only = {name: status for name, status in users.items() if status == "active"}
+print("Active Users:", active_only)
