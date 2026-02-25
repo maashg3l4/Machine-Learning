@@ -31,3 +31,11 @@ except ValueError as e:
     print(f"Caught an error: {e}")
 finally:
     print("Execution complete.")
+
+
+# basic_python.py - Phase 5
+def calculate_summary(data):
+    return {"Total Sum": sum(data), "Max": max(data), "Min": min(data)}
+
+my_data = [45, 12, 89, 3, 27]
+print("Data Summary:", calculate_summary(my_data))
