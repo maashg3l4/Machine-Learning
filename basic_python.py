@@ -5,3 +5,9 @@ print("Hello GitHub! I am starting my Python journey.")
 a = 10
 b = 20
 print("The sum of a and b is:", a + b)
+
+# basic_python.py - Phase 1
+def welcome_msg(name):
+    return f"Hello {name}, welcome to Day 3 of Python practice!"
+
+print(welcome_msg("Sohag"))
